@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football News</title>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .news-container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .news-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+        }
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        .news-image {
+            width: 200px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .news-content {
+            flex: 1;
+        }
+        .news-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .news-text {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">Football News</div>
+<div class="news-container">
+  <div class="news-item">
+    <img class="news-image" src="https://www.fcbarcelona.com/fcbarcelona/photo/2020/02/19/1778333d-c844-424f-8466-9c8d55892278/mini_3200x2000_Rivals_RM_FCB.jpg" alt="Barcelona vs Real Madrid">
+    <div class="news-content">
+      <div class="news-title">Barcelona confidently defeats Real Madrid</div>
+      <div class="news-text">Yesterday, El Clásico took place, where Barcelona secured a 3-1 victory. Lionel Messi once again showcased his mastery.</div>
+    </div>
+  </div>
+  <div class="news-item">
+    <img class="news-image" src="https://www.sports.ru/dynamic_images/news/111/396/841/7/share/c1883e_no_logo_no_text.jpg" alt="World Cup 2026">
+    <div class="news-content">
+      <div class="news-title">World Cup 2026: New Details</div>
+      <div class="news-text">FIFA has announced an expansion to 48 teams. The tournament will take place in the USA, Canada, and Mexico.</div>
+    </div>
+  </div>
+  <div class="news-item">
+    <img class="news-image" src="https://resizer.mail.ru/p/e63e9409-4e03-5c72-8e66-37775e4a7db9/dpr:163/AQAG5GF5FEVkp_FCmN1bayqKaDVUtonykgc_ZD_yuJZxEbn7bXsicDpmNnHPu3Dwt_olbh9uswVgvtZH-2bec4iAjrY.jpg" alt="Cristiano Ronaldo Record">
+    <div class="news-content">
+      <div class="news-title">Cristiano Ronaldo Breaks New Record</div>
+      <div class="news-text">The Portuguese forward has become the first player to score 850 goals in his career. He continues to amaze fans.</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
